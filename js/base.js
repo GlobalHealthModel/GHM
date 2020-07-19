@@ -1,5 +1,5 @@
 
-var githubSubPageHack = ""
+var githubSubPageHack = "GHM"
 
 var country_convert = {
     "Afghanistan":"AFG",
