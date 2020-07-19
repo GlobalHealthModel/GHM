@@ -1483,6 +1483,12 @@ function netCallbackThing(whoData){
             worldSphereMesh.needsUpdate = true;
             //loading.removeClass('loading-ring-css');
         });
+        console.log(yearArray.length)
+        if(yearArray.length == 1){
+            console.log("HIDE")
+            $("#timelineContainer").hide() // HIDE DOESNT WORK???
+            $("#timelineContainer").css({"display": "none"});
+        }
         document.getElementById("loading-text").innerHTML = "Done!";
         bar.set(99);
         $('#loadingContainerBIGGER').fadeOut(3000);
