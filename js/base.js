@@ -456,7 +456,7 @@ function convertData(whoType, whoData){
     document.getElementById("loading-text").innerHTML = "Parsing Dataset..."
     console.log(whoData)
     whoData.fact.forEach(function(x) {
-        value = x.Value;
+        value = x.Value.replace(/ /g, "");
         country = x.dim.COUNTRY
         sex = x.dim.SEX
         year = x.dim.YEAR
