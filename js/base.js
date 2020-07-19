@@ -410,7 +410,7 @@ availableDatasets = {
        "Title":"Population (in thousands) total",
        "Unit":"thousands",
        "Size":73111 ,
-       "Reversed":true
+       "Reversed":undefined
     },
     "WHS9_88":{
        "Title":"Population median age (years)",
@@ -428,7 +428,7 @@ availableDatasets = {
        "Title":"Births by caesarean section (%)",
        "Unit":"%",
        "Size":124933 ,
-       "Reversed":true
+       "Reversed":undefined
     },
     "WHS2_138":{
        "Title":"Deaths due to HIV/AIDS (per 100 000 population)",
@@ -549,6 +549,9 @@ document.getElementById("loading-currently-viewing").innerHTML = "Currently Load
 if(availableDatasets[whoCode].Reversed == true){
     //HACKY REVERSE COLOURS IF ITS REVERSED LMAO
     [countryColorScaleStart, countryColorScaleEnd] = [countryColorScaleEnd, countryColorScaleStart]
+}
+else if(availableDatasets[whoCode].Reversed == undefined){
+    [countryColorScaleStart, countryColorScaleEnd] = [countryColorScaleStart, countryColorScaleStart]
 }
 
 autoCompleteLookupTwo = [];
@@ -1405,6 +1408,9 @@ function netCallbackThing(whoData){
             }
         }
         console.log(yearArray)
+        if(yearArray.length == 1){
+            $("#timelineContainer").hide()
+        }
         selectedIndicator1Id = input.defaultIndicator1;
         selectedIndicator2Id = input.defaultIndicator2;
         selectedIndicator3Id = input.defaultIndicator3;
