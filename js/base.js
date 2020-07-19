@@ -454,7 +454,7 @@ function getWhoData(whoType, attempt){
 }
 
 function generateUrl(){
-    return "https://" + window.location.host + "/" + githubSubPageHack + "?code=" + whoCode + "?year=" + selectedYear
+    return "https://" + window.location.host + "/" + githubSubPageHack + "?code=" + whoCode + "&year=" + selectedYear
 }
 
 function updateCopyLinkArea(){
