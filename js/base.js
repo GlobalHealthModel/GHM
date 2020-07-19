@@ -383,15 +383,9 @@ availableDatasets = {
        "Reversed":true
     },
     "WHS3_62":{
-       "Title":"XXX",
-       "Unit":"XXX",
-       "Size":0,
-       "Reversed":true
-    },
-    "MORT_58":{
        "Title":"Measles - number of reported cases",
        "Unit":"Cases",
-       "Size":3171180 ,
+       "Size":3171180,
        "Reversed":true
     },
     "WHOSIS_000008":{
@@ -551,7 +545,7 @@ if(availableDatasets[whoCode].Reversed == true){
     [countryColorScaleStart, countryColorScaleEnd] = [countryColorScaleEnd, countryColorScaleStart]
 }
 else if(availableDatasets[whoCode].Reversed == undefined){
-    [countryColorScaleStart, countryColorScaleEnd] = [countryColorScaleStart, countryColorScaleStart]
+    [countryColorScaleStart, countryColorScaleEnd] = [countryColorScaleEnd, countryColorScaleEnd]
 }
 
 autoCompleteLookupTwo = [];
