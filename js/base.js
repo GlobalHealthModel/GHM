@@ -1,22 +1,5 @@
-/*
- * Copyright 2015 University of Aveiro
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- *
- * Living Globe v3.0.2
- * Authors: Eduardo Duarte (ed@edduarte.com) and Pedro Bordonhos (bordonhos@ua.pt)
- */
 
+var githubSubPageHack = "GHM"
 
 var country_convert = {
     "Afghanistan":"AFG",
@@ -373,7 +356,7 @@ function prepareDataField(whoType, whoName, whoUnit, whoData){
 
 
 function selectTwo(thing){
-    location.replace("http://" + window.location.host + "?code=" + thing);
+    location.replace("https://" + window.location.host + "/" + githubSubPageHack + "?code=" + thing);
 }
 
 const urlParams = new URLSearchParams(window.location.search);
@@ -471,7 +454,7 @@ function getWhoData(whoType, attempt){
 }
 
 function generateUrl(){
-    return "http://" + window.location.host + "?code=" + whoCode + "?year=" + selectedYear
+    return "https://" + window.location.host + "/" + githubSubPageHack + "?code=" + whoCode + "?year=" + selectedYear
 }
 
 function updateCopyLinkArea(){
