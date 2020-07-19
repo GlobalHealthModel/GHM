@@ -1,0 +1,6 @@
+css/lib/* linguist-vendored
+js/lib/* linguist-vendored
+img/* linguist-vendored
+data/original/* linguist-vendored
+fonts/fontawesome/* linguist-vendored
+fonts/overpass-fonts-web-fonts-2.1/* linguist-vendored

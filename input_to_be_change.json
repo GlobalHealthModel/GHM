@@ -1,0 +1,2249 @@
+{
+  "dimension": [
+                 {
+                   "label": "GHO",
+                   "display": "Indicator"
+                 },
+                 {
+                   "label": "PUBLISHSTATE",
+                   "display": "PUBLISH STATES"
+                 },
+                 {
+                   "label": "YEAR",
+                   "display": "Year"
+                 },
+                 {
+                   "label": "REGION",
+                   "display": "WHO region"
+                 },
+                 {
+                   "label": "COUNTRY",
+                   "display": "Country"
+                 },
+                 {
+                   "label": "SEX",
+                   "display": "Sex"
+                 }
+               ],
+  "fact": [
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Rwanda",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Africa",
+                      "YEAR": "2011"
+                    },
+             "Value": "62.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Afghanistan",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "61.7"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Angola",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "59.5"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Albania",
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "75.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean",
+                      "COUNTRY": "United Arab Emirates"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "76.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Argentina",
+                      "REGION": "Americas"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "76.0"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Armenia",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "73.6"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "Americas",
+                      "COUNTRY": "Antigua and Barbuda",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "75.0"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Australia",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "82.2"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Africa",
+                      "COUNTRY": "Western Sahara",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE":"Published"
+                    },
+              "Comments":"WHO life table method: Vital registration",
+              "Value": "61.1"
+            },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "COUNTRY": "Austria",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "81.0"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Azerbaijan",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "71.6"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Burundi",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "58.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Belgium",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "80.5"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Benin",
+                      "REGION": "Africa",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "59.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "REGION": "Africa",
+                      "YEAR": "2011",
+                      "COUNTRY": "Burkina Faso",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "57.7"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2011",
+                      "COUNTRY": "Bangladesh",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "70.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "COUNTRY": "Bulgaria",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "74.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2011",
+                      "COUNTRY": "Bahrain"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "77.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "COUNTRY": "Bahamas",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "75.3"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Bosnia and Herzegovina",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "76.6"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Belarus",
+                      "YEAR": "2011",
+                      "REGION": "Europe",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "70.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Belize",
+                      "YEAR": "2011",
+                      "REGION": "Americas"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "69.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Americas",
+                      "YEAR": "2011",
+                      "COUNTRY": "Bolivia (Plurinational State of)"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "69.8"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Brazil",
+                      "REGION": "Americas",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "73.6"
+           },
+           {
+             "dim": {
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Barbados",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "74.9"
+           },
+           {
+             "dim": {
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "COUNTRY": "Brunei Darussalam",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "76.7"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Bhutan",
+                      "REGION": "South-East Asia",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "68.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "COUNTRY": "Botswana",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "61.9"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "REGION": "Africa",
+                      "COUNTRY": "Central African Republic",
+                      "GHO": "Life expectancy at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "50.2"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "COUNTRY": "Canada",
+                      "REGION": "Americas",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "81.8"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Switzerland",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "82.7"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Chile",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "79.0"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Western Pacific",
+                      "COUNTRY": "China",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "75.4"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Côte d'Ivoire",
+                      "SEX": "Both sexes",
+                      "REGION": "Africa",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "52.9"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "REGION": "Africa",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Cameroon",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "55.8"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Democratic Republic of the Congo",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "58.3"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Africa",
+                      "COUNTRY": "Congo",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "62.2"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "Americas",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Colombia",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "74.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "REGION": "Africa",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Comoros"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "62.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "Africa",
+                      "COUNTRY": "Cabo Verde"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "72.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Costa Rica",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Americas"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "79.0"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Cuba",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "78.8"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Cyprus",
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "80.1"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Czechia",
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "77.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Germany",
+                      "REGION": "Europe",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "80.4"
+           },
+           {
+             "dim": {
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "COUNTRY": "Djibouti",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "62.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "YEAR": "2011",
+                      "COUNTRY": "Denmark",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "80.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "COUNTRY": "Dominican Republic",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Americas"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "72.3"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Algeria",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "75.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "COUNTRY": "Ecuador",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "75.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "COUNTRY": "Egypt"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "70.1"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Africa",
+                      "COUNTRY": "Eritrea",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "62.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Spain",
+                      "REGION": "Europe",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "82.4"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "YEAR": "2011",
+                      "COUNTRY": "Estonia",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "76.3"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "COUNTRY": "Ethiopia",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "62.6"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "YEAR": "2011",
+                      "COUNTRY": "Finland",
+                      "GHO": "Life expectancy at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "80.5"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Fiji",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "69.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "COUNTRY": "France",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "81.8"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "Western Pacific",
+                      "COUNTRY": "Micronesia (Federated States of)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "68.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Gabon",
+                      "REGION": "Africa",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "62.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "United Kingdom",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Europe"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "81.1"
+           },
+           {
+             "dim": {
+                      "REGION": "Europe",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Georgia"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "72.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "COUNTRY": "Ghana",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "61.6"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Guinea",
+                      "REGION": "Africa",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "57.6"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Gambia",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "60.4"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Guinea-Bissau",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "57.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Equatorial Guinea",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "REGION": "Africa"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "57.3"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Greece",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "80.6"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Grenada",
+                      "YEAR": "2011",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "72.9"
+           },
+           {
+             "dim": {
+                      "REGION": "Americas",
+                      "COUNTRY": "Guatemala",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "71.6"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Guyana",
+                      "YEAR": "2011",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "65.7"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Honduras",
+                      "REGION": "Americas",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "74.2"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "COUNTRY": "Croatia",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "77.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "COUNTRY": "Haiti"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "62.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Hungary",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "74.8"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "COUNTRY": "Indonesia",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "South-East Asia",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "68.3"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "India",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "South-East Asia",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "67.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Ireland",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "REGION": "Europe"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "80.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean",
+                      "COUNTRY": "Iran",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "74.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Iraq",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "70.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "COUNTRY": "Iceland",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "82.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Israel",
+                      "YEAR": "2011",
+                      "REGION": "Europe"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "81.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Italy",
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "82.2"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "COUNTRY": "Jamaica",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Americas",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "75.1"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Jordan",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "73.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Western Pacific",
+                      "COUNTRY": "Japan",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "82.9"
+           },
+           {
+             "dim": {
+                      "REGION": "Europe",
+                      "COUNTRY": "Kazakhstan",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "68.1"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Kenya",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "63.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Kyrgyzstan",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "69.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "COUNTRY": "Cambodia",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Western Pacific"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "67.6"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "COUNTRY": "Kiribati",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "66.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2011",
+                      "COUNTRY": "Republic of Korea"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "81.1"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Kuwait",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "74.2"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "COUNTRY": "Lao People's Democratic Republic",
+                      "SEX": "Both sexes",
+                      "REGION": "Western Pacific",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "64.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "COUNTRY": "Lebanon",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "75.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "REGION": "Africa",
+                      "COUNTRY": "Liberia",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "60.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "COUNTRY": "Libya"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "71.3"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Americas",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Saint Lucia",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "75.0"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "South-East Asia",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "COUNTRY": "Sri Lanka",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "74.8"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Lesotho",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "52.8"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Lithuania",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "73.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Luxembourg",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "81.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Latvia",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "73.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Morocco",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "74.6"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "REGION": "Europe",
+                      "COUNTRY": "Republic of Moldova",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "70.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Madagascar",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Africa",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "64.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "South-East Asia",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "COUNTRY": "Maldives",
+                      "SEX": "Both sexes"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "76.9"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Americas",
+                      "COUNTRY": "Mexico",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "75.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "COUNTRY": "Republic of North Macedonia",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "75.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "REGION": "Africa",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Mali"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "56.0"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Malta",
+                      "SEX": "Both sexes",
+                      "REGION": "Europe",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "80.9"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Myanmar",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "65.0"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "COUNTRY": "Montenegro",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "75.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Mongolia",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "68.4"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Mozambique",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "55.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Mauritania"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "62.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Mauritius",
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "73.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "COUNTRY": "Malawi"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "59.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Malaysia",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "74.4"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Africa",
+                      "COUNTRY": "Namibia",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "61.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "REGION": "Africa",
+                      "COUNTRY": "Niger",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "57.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Nigeria",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Africa"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "52.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Nicaragua",
+                      "YEAR": "2011",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "74.2"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "REGION": "Europe",
+                      "COUNTRY": "Netherlands",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "81.1"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Norway",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "81.3"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "COUNTRY": "Nepal",
+                      "REGION": "South-East Asia",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "68.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "New Zealand",
+                      "SEX": "Both sexes",
+                      "REGION": "Western Pacific",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "81.0"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "COUNTRY": "Oman",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "75.9"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Pakistan",
+                      "REGION": "Eastern Mediterranean",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "65.4"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Panama",
+                      "REGION": "Americas",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "77.3"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "COUNTRY": "Peru",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "74.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Philippines",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "68.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Papua New Guinea",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "64.8"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Poland"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "76.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Democratic People's Republic of Korea",
+                      "SEX": "Both sexes",
+                      "REGION": "South-East Asia",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "70.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Portugal",
+                      "REGION": "Europe"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "80.5"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Americas",
+                      "COUNTRY": "Paraguay",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "73.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Qatar",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "77.4"
+           },
+           {
+             "dim": {
+                      "REGION": "Europe",
+                      "COUNTRY": "Romania",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "74.4"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Russian Federation",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "69.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "COUNTRY": "Rwanda",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "REGION": "Africa"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "65.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Saudi Arabia",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "74.0"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Sudan",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "63.5"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "REGION": "Africa",
+                      "COUNTRY": "Senegal",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "64.5"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "COUNTRY": "Singapore",
+                      "REGION": "Western Pacific",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "82.0"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Solomon Islands",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "70.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "REGION": "Africa",
+                      "YEAR": "2011",
+                      "COUNTRY": "Sierra Leone"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "50.2"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "REGION": "Americas",
+                      "COUNTRY": "El Salvador",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "72.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "COUNTRY": "Somalia",
+                      "SEX": "Both sexes",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "53.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "REGION": "Europe",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Serbia"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "75.2"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "COUNTRY": "South Sudan",
+                      "SEX": "Both sexes",
+                      "REGION": "Africa"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "56.4"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "COUNTRY": "Sao Tome and Principe",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "67.3"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Americas",
+                      "YEAR": "2011",
+                      "COUNTRY": "Suriname"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "70.7"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "COUNTRY": "Slovakia",
+                      "REGION": "Europe",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "75.9"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Slovenia",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "79.9"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "YEAR": "2011",
+                      "COUNTRY": "Sweden"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "81.8"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Eswatini",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "53.8"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Seychelles"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "72.4"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Syrian Arab Republic",
+                      "YEAR": "2011",
+                      "REGION": "Eastern Mediterranean",
+                      "GHO": "Life expectancy at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "72.7"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Chad",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "52.3"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "REGION": "Africa",
+                      "COUNTRY": "Togo",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "58.6"
+           },
+           {
+             "dim": {
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "REGION": "South-East Asia",
+                      "COUNTRY": "Thailand",
+                      "GHO": "Life expectancy at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Other HIV countries",
+             "Value": "74.3"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "REGION": "Europe",
+                      "COUNTRY": "Tajikistan",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "70.0"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Turkmenistan",
+                      "YEAR": "2011",
+                      "REGION": "Europe"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "66.8"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "REGION": "South-East Asia",
+                      "COUNTRY": "Timor-Leste",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "67.4"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Tonga",
+                      "REGION": "Western Pacific",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "72.8"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Trinidad and Tobago",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Americas",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "71.1"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Tunisia",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "75.1"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "COUNTRY": "Turkey",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "74.9"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "United Republic of Tanzania",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Africa",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "60.2"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "COUNTRY": "Uganda",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Africa",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "58.6"
+           },
+           {
+             "dim": {
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Ukraine",
+                      "REGION": "Europe",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "70.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "YEAR": "2011",
+                      "COUNTRY": "Uruguay",
+                      "SEX": "Both sexes",
+                      "REGION": "Americas",
+                      "GHO": "Life expectancy at birth (years)"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "76.3"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "United States of America",
+                      "REGION": "Americas",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "78.8"
+           },
+           {
+             "dim": {
+                      "REGION": "Europe",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Uzbekistan",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "71.0"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Saint Vincent and the Grenadines",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Americas",
+                      "YEAR": "2011",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "72.1"
+           },
+           {
+             "dim": {
+                      "REGION": "Americas",
+                      "COUNTRY": "Venezuela (Bolivarian Republic of)",
+                      "GHO": "Life expectancy at birth (years)",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: Vital registration",
+             "Value": "73.7"
+           },
+           {
+             "dim": {
+                      "REGION": "Western Pacific",
+                      "YEAR": "2011",
+                      "SEX": "Both sexes",
+                      "COUNTRY": "Viet Nam",
+                      "GHO": "Life expectancy at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "75.5"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "COUNTRY": "Vanuatu",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Western Pacific"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "71.4"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "COUNTRY": "Samoa",
+                      "REGION": "Western Pacific",
+                      "GHO": "Life expectancy at birth (years)",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "73.7"
+           },
+           {
+             "dim": {
+                      "COUNTRY": "Yemen",
+                      "REGION": "Eastern Mediterranean",
+                      "SEX": "Both sexes",
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: World Population Prospects, 2017 revision (United Nations, Population Division)",
+             "Value": "64.6"
+           },
+           {
+             "dim": {
+                      "REGION": "Africa",
+                      "YEAR": "2011",
+                      "COUNTRY": "South Africa",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "59.1"
+           },
+           {
+             "dim": {
+                      "YEAR": "2011",
+                      "GHO": "Life expectancy at birth (years)",
+                      "REGION": "Africa",
+                      "COUNTRY": "Zambia",
+                      "SEX": "Both sexes",
+                      "PUBLISHSTATE": "Published"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "58.6"
+           },
+           {
+             "dim": {
+                      "PUBLISHSTATE": "Published",
+                      "SEX": "Both sexes",
+                      "GHO": "Life expectancy at birth (years)",
+                      "COUNTRY": "Zimbabwe",
+                      "REGION": "Africa",
+                      "YEAR": "2011"
+                    },
+             "Comments": "WHO life table method: High HIV countries",
+             "Value": "55.5"
+           }
+          ]
+}

@@ -1,0 +1,892 @@
+/*!
+ * Copyright 2015 University of Aveiro
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * Living Globe v2.0.0
+ * Authors: Eduardo Duarte (ed@edduarte.com) and Pedro Bordonhos (bordonhos@ua.pt)
+ */
+
+/* Webfont: Overpass-Bold */@font-face {
+    font-family: 'Overpass';
+    src: url('../fonts/overpass/Overpass-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/overpass/Overpass-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/overpass/Overpass-Bold.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/overpass/Overpass-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/overpass/Overpass-Bold.svg#Overpass-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-BoldItalic */@font-face {
+    font-family: 'Overpass';
+    src: url('../fonts/overpass/Overpass-Bold-Italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/overpass/Overpass-Bold-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/overpass/Overpass-Bold-Italic.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/overpass/Overpass-Bold-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/overpass/Overpass-Bold-Italic.svg#Overpass-BoldItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-Reg */@font-face {
+    font-family: 'Overpass';
+    src: url('../fonts/overpass/Overpass-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/overpass/Overpass-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/overpass/Overpass-Regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/overpass/Overpass-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/overpass/Overpass-Regular.svg#Overpass-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: Overpass-Italic */@font-face {
+    font-family: 'Overpass';
+    src: url('../fonts/overpass/Overpass-Italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/overpass/Overpass-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/overpass/Overpass-Italic.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/overpass/Overpass-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/overpass/Overpass-Italic.svg#Overpass-Italic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: Overpass-Light */@font-face {
+    font-family: 'Overpass';
+    src: url('../fonts/overpass/Overpass-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/overpass/Overpass-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/overpass/Overpass-Light.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/overpass/Overpass-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/overpass/Overpass-Light.svg#Overpass-Light') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-LightItalic */@font-face {
+    font-family: 'Overpass';
+    src: url('../fonts/overpass/Overpass-Light-Italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/overpass/Overpass-Light-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/overpass/Overpass-Light-Italic.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/overpass/Overpass-Light-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/overpass/Overpass-Light-Italic.svg#Overpass-LightItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-ExtraLight */@font-face {
+    font-family: 'Overpass';
+    src: url('../fonts/overpass/Overpass-ExtraLight.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/overpass/Overpass-ExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/overpass/Overpass-ExtraLight.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/overpass/Overpass-ExtraLight.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/overpass/Overpass-ExtraLight.svg#Overpass-ExtraLight') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-ExtraLightItalic */@font-face {
+    font-family: 'Overpass';
+    src: url('../fonts/overpass/Overpass-ExtraLight-Italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/overpass/Overpass-ExtraLight-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/overpass/Overpass-ExtraLight-Italic.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/overpass/Overpass-ExtraLight-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/overpass/Overpass-ExtraLight-Italic.svg#Overpass-ExtraLightItalic') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: #ededed;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Overpass-ExtraLight', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div, button, p {
+}
+
+.label {
+    display: inline-block;
+}
+
+li {
+    color: #8a8a8a;
+}
+
+svg {
+    display: block;
+}
+
+#chart1, svg {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+
+.nvd3 .nv-axis path {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2px;
+    stroke-opacity: 1;
+    shape-rendering: crispEdges;
+}
+
+.nvd3 .nv-axis text {
+    color: #222;
+}
+
+.nvtooltip {
+    position: absolute;
+    background-color: rgba(255,255,255,1.0);
+    padding: 1px;
+    border: 1px solid rgba(0,0,0,.2);
+    z-index: 10000;
+
+    font-family: 'Overpass-ExtraLight', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    pointer-events: none;
+
+    white-space: nowrap;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+table.right {
+    width: auto;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.row-fluid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+
+.row-fluid [class*="span"] {
+    margin:0
+}
+
+#timelineContainer {
+    /*font-size: 12px;*/
+    position: fixed;
+    /*background: #7F7F7F;*/
+    left: 0;
+    right: 0;
+    bottom: 64px;
+    width: 380px;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    z-index: 2;
+    /*text-align: right;*/
+    /*line-height: 1.7em*/
+}
+
+.details-dark {
+    background-color: rgba(142, 142, 142, 0.9);
+    color: #fff;
+    position: fixed;
+    border-radius: 15px;
+    /*bottom: 0;*/
+    margin-top: 30px;
+    left: 0;
+    font-size: 12px;
+    font-family: 'Overpass-ExtraLight', sans-serif;
+    /*margin-bottom: 290px;*/
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    pointer-events:none;
+    z-index: 100;
+    text-align: left;
+    /*text-align: right;*/
+    /*line-height: 1.7em*/
+}
+
+.details-light {
+    text-align: right;
+    width: 400px;
+    background-color: transparent;
+    color: #999;
+    position: fixed;
+    border-radius: 15px;
+    /*bottom: 0;*/
+    margin-top: 30px;
+    left: 0;
+    font-size: 15px;
+    font-family: 'Overpass-ExtraLight', sans-serif;
+    /*margin-bottom: 290px;*/
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    pointer-events:none;
+    z-index: 100;
+    /*text-align: right;*/
+    line-height: 1.7em
+}
+
+.details-light h4 {
+    font-size: 30px;
+    line-height: 1.7em
+}
+
+#loadingContainerBIGGER {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #EDEDED;
+    z-index: 99999999;
+}
+
+#loadingContainer {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 600px;
+    height: 400px;
+    color: #000;
+    text-align: center
+}
+
+#infoButtonContainer {
+    position: fixed;
+    margin: 20px;
+    top: 0;
+    right: 0;
+    z-index:500;
+}
+
+#leftArea {
+    width: 25%;
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    margin: 6px;
+    z-index: 3;
+}
+
+#search {
+    position: relative;
+    margin: 6px;
+    z-index: 3;
+    margin-top: 50px;
+}
+
+#searchTwo {
+    position: relative;
+    margin: 6px;
+    z-index: 3;
+    padding-top: 20px;
+    margin-top: 80px;
+}
+
+#logoBox {
+    width: 25%;
+    position: fixed;
+    bottom: 30px;
+    left: 0px;
+    margin: 6px;
+    z-index: 3;
+}
+
+#socialMedia {
+    float: right;
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+    z-index: 302;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    height:30;
+    width: 30;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #841288;
+    color: white;
+  }.fa-twitter {
+    background: #007bb5;
+    color: white;
+  }
+
+#doc-title{
+    position:relative;
+    margin-left:0;
+    top:15px;
+    z-index:401;
+    text-align: center ;
+}
+
+#linkArea {
+    width: 370px;
+    color:black;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: transparent;
+}
+
+#searchField {
+    width: 370px;
+    color:black;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: transparent;
+}
+
+#searchFieldTwo {
+    width: 370px;
+    color:black;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: transparent;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: white;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: white;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+#grad1 {
+    width: 90px;
+    height: 20px;
+    background: -webkit-linear-gradient(left, #FF2A2A, #23D723); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #FF2A2A, #23D723); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #FF2A2A, #23D723); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #FF2A2A , #23D723); /* Standard syntax (must be last) */
+}
+
+#grad2 {
+    width: 90px;
+    height: 20px;
+    background: -webkit-linear-gradient(left, #007aff , #ffd500); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #007aff, #ffd500); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #007aff, #ffd500); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #007aff , #ffd500); /* Standard syntax (must be last) */
+}
+
+#sliderIndicator1 .noUi-connect {
+    background: #222;
+}
+
+#sliderIndicator2 .noUi-connect {
+    background: #222;
+    /*background: -webkit-linear-gradient(left, #007aff , #ffd500); !* For Safari 5.1 to 6.0 *!*/
+    /*background: -o-linear-gradient(right, #007aff, #ffd500); !* For Opera 11.1 to 12.0 *!*/
+    /*background: -moz-linear-gradient(right, #007aff, #ffd500); !* For Firefox 3.6 to 15 *!*/
+    /*background: linear-gradient(to right, #007aff , #ffd500); !* Standard syntax (must be last) *!*/
+}
+
+#sliderIndicator3 .noUi-connect {
+    background: #222;
+    /*background: -webkit-linear-gradient(left, #FF2A2A, #23D723); !* For Safari 5.1 to 6.0 *!*/
+    /*background: -o-linear-gradient(right, #FF2A2A, #23D723); !* For Opera 11.1 to 12.0 *!*/
+    /*background: -moz-linear-gradient(right, #FF2A2A, #23D723); !* For Firefox 3.6 to 15 *!*/
+    /*background: linear-gradient(to right, #FF2A2A , #23D723); !* Standard syntax (must be last) *!*/
+}
+
+.autocomplete-suggestions {
+    font-family: 'Overpass-Reg', sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #ddd;
+    overflow: auto;
+}
+
+.autocomplete-suggestion {
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+}
+
+.autocomplete-suggestions strong {
+    font-family: 'Overpass-Bold', sans-serif;
+    color: #333;
+}
+
+.autocomplete-selected {
+    color: #fff;
+    background: #B5BBC0;
+}
+
+.autocomplete-selected strong {
+    font-family: 'Overpass-Bold', sans-serif;
+    color: #fff;
+}
+
+.autocomplete-group {
+    padding: 2px 5px;
+}
+
+.autocomplete-group strong {
+    display: block;
+    border-bottom: 1px solid #000;
+}
+
+#worldContainer {
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /*bottom: 0;*/
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown > .btn-default {
+    background:transparent;
+    width: 100%;
+    color: #999;
+    font-size: 15px;
+}
+
+.parameter {
+    color: #ccc;
+    font-size: 15px;
+    /*background: -moz-linear-gradient(left, rgba(238,238,238,1) 0%, rgba(125,185,232,0) 100%); !* FF3.6-15 *!*/
+    /*background: -webkit-linear-gradient(left, rgba(238,238,238,1) 0%,rgba(125,185,232,0) 100%); !* Chrome10-25,Safari5.1-6 *!*/
+    /*background: linear-gradient(to right, rgba(238,238,238,1) 0%,rgba(125,185,232,0) 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#007db9e8',GradientType=1 ); !* IE6-9 *!*/
+    /*border-radius: 25px;*/
+    padding: 5px;
+    position: absolute;
+    margin: auto;
+    left: 5px;
+    top: 70px;
+    width: 400px;
+    z-index: 2;
+}
+
+.parameter h5 {
+    font-size: 15px;
+    line-height: 0;
+}
+
+.parameter .span5 {
+    width: 159px;
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+    padding-bottom: 30px;
+}
+
+
+@media (max-width: 979px) {
+
+    #search {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 280px;
+    }
+
+    #searchField {
+        color: #333;
+        width: 249px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 15px;
+        background: transparent;
+    }
+
+    #timelineContainer {
+        /*font-size: 12px;*/
+        position: fixed;
+        /*background: #7F7F7F;*/
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 280px;
+        height: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 12px;
+        margin: 50px auto 0;
+        z-index: 2;
+        /*text-align: right;*/
+        /*line-height: 1.7em*/
+    }
+
+    #worldContainer {
+        position: absolute;
+        margin: auto;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 75%;
+    }
+
+    .dropdown > .btn-default {
+        background:transparent;
+        width: 100%;
+        color: #333;
+        font-size: 11px;
+    }
+
+    .parameter {
+        color: #333;
+        font-size: 12px;
+        /*background: -moz-linear-gradient(left, rgba(238,238,238,1) 0%, rgba(125,185,232,0) 100%); !* FF3.6-15 *!*/
+        /*background: -webkit-linear-gradient(left, rgba(238,238,238,1) 0%,rgba(125,185,232,0) 100%); !* Chrome10-25,Safari5.1-6 *!*/
+        /*background: linear-gradient(to right, rgba(238,238,238,1) 0%,rgba(125,185,232,0) 100%); !* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *!*/
+        /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#007db9e8',GradientType=1 ); !* IE6-9 *!*/
+        /*border-radius: 25px;*/
+        padding: 5px;
+        position: absolute;
+        margin: auto;
+        right: 0;
+        top: 60px;
+        left: 0;
+        max-width: 300px;
+        z-index: 2;
+    }
+
+    .parameter h5 {
+        font-size: 12px;
+        line-height: 0;
+    }
+
+    .parameter .span5 {
+        width: 159px;
+        margin-left:0;
+        margin-right:0;
+        padding-left:0;
+        padding-right:0;
+        padding-bottom: 30px;
+    }
+
+    .modal {
+        position: fixed;
+        top: 3%;
+        right: 3%;
+        left: 3%;
+        max-width: 600px;
+        width: auto;
+        margin: 0;
+    }
+
+    .modal-body {
+        height: 60%;
+    }
+
+    .modal-body {
+        max-height: 350px;
+        padding: 15px;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+}
+
+.parameter .noUi-handle {
+    width: 20px;
+    height: auto;
+    cursor: default;
+    box-shadow: none;
+    background: transparent;
+}
+
+#timeline .noUi-handle {
+    width: 20px;
+    height: auto;
+    cursor: default;
+    box-shadow: none;
+    background: transparent;
+}
+
+#timeline .noUi-handle-lower {
+    /*top: 15px;*/
+    /*left: -12px;*/
+    /*border-top: 0;*/
+    /*border-left: 12px solid transparent;*/
+    /*border-right: 12px solid transparent;*/
+    /*border-bottom: 12px solid #333;*/
+}
+
+#timeline .noUi-active {
+    box-shadow: none;
+}
+
+#timeline .noUi-handle:before,
+#timeline .noUi-handle:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 0;
+    background: transparent;
+    left: 14px;
+    top: 6px;
+}
+#timeline .noUi-handle:after {
+    left: 17px;
+}
+#timeline .noUi-vertical .noUi-handle:before,
+#timeline .noUi-vertical .noUi-handle:after {
+    width: 14px;
+    height: 1px;
+    left: 6px;
+    top: 14px;
+}
+#timeline .noUi-vertical .noUi-handle:after {
+    top: 17px;
+}
+
+.parameter .noUi-handle-lower {
+    top: -13px;
+    left: -12px;
+    border-top: 12px solid #333;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 0;
+}
+
+.parameter .noUi-handle-upper {
+    top: 15px;
+    left: -12px;
+    border-top: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #333;
+}
+
+.parameter .noUi-active {
+    box-shadow: none;
+}
+
+.parameter .noUi-handle:before,
+.parameter .noUi-handle:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 0;
+    background: transparent;
+    left: 14px;
+    top: 6px;
+}
+.parameter .noUi-handle:after {
+    left: 17px;
+}
+.parameter .noUi-vertical .noUi-handle:before,
+.parameter .noUi-vertical .noUi-handle:after {
+    width: 14px;
+    height: 1px;
+    left: 6px;
+    top: 14px;
+}
+.parameter .noUi-vertical .noUi-handle:after {
+    top: 17px;
+}
+
+.parameter .noUi-tooltip {
+    z-index: 300;
+    display: block;
+    position: absolute;
+    border: 1px solid #333;
+    border-radius: 3px;
+    background: #333;
+    /*padding: 5px;*/
+    left: -9px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Overpass-Light', sans-serif;
+    width: auto;
+}
+
+#timeline .noUi-handle-lower .noUi-tooltip {
+    /*top: 6px;*/
+    /*left: -22px;*/
+    top: -1px;
+}
+
+.parameter .noUi-handle-lower .noUi-tooltip {
+    left: -15px;
+    top: -33px;
+}
+
+.parameter .noUi-handle-upper .noUi-tooltip {
+    /*left: -15px;*/
+    top: 6px;
+    text-align: right;
+    right: -15px;
+    left: auto;
+}
+
+#timelineContainer .noUi-tooltip {
+    border: 1px solid #333;
+    border-radius: 3px;
+    background: #333;
+    /*padding: 5px;*/
+    left: -3px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Overpass-Light', sans-serif;
+    width: auto;
+}
+
+#timeline {
+    z-index: 3;
+}
+
+
+/* SQUARED THREE */
+.customCheckbox {
+    width: 20px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.customCheckbox label {
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    border-radius: 4px;
+
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.6), 0 1px 0 rgba(255,255,255,.4);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.6), 0 1px 0 rgba(255,255,255,.4);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.6), 0 1px 0 rgba(255,255,255,.4);
+
+    background: -webkit-linear-gradient(top, #fff 0%, #fff 100%);
+    background: -moz-linear-gradient(top, #fff 0%, #fff 100%);
+    background: -o-linear-gradient(top, #fff 0%, #fff 100%);
+    background: -ms-linear-gradient(top, #fff 0%, #fff 100%);
+    background: linear-gradient(top, #fff 0%, #fff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#fff',GradientType=0 );
+}
+
+.customCheckbox label:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    background: transparent;
+    top: 4px;
+    left: 4px;
+    border: 3px solid #545551;
+    border-top: none;
+    border-right: none;
+
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.customCheckbox label:hover::after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+}
+
+.customCheckbox input[type=checkbox]:checked + label:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.customCheckboxLabel {
+    cursor: pointer;
+    font-size: 12px;
+    padding-top: 4px;
+    color: #333;
+}
+
+.noHover{
+    pointer-events: none;
+}
+
+.pace { -webkit-pointer-events: none; pointer-events: none; -webkit-user-select: none; -moz-user-select: none; user-select: none; z-index: 2000; position: fixed; margin: auto; top: 0; left: 0; right: 0; bottom: 0; height: 5px; width: 200px; background: #fff; border: 1px solid #29d; overflow: hidden; } .pace .pace-progress { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); max-width: 200px; position: fixed; z-index: 2000; display: block; position: absolute; top: 0; right: 100%; height: 100%; width: 100%; background: #29d; } .pace.pace-inactive { display: none; }
