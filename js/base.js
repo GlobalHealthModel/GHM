@@ -588,6 +588,9 @@ function getWhoData(whoType, attempt){
     document.getElementById("loading-text").innerHTML = "(" + attempt + ") Downloading Information from WHO.... (This may take a few moments)"
     bar.set(0)   
     var xmlHttp = new XMLHttpRequest();
+    // stupid devs at WHO didnt enable cors request
+    // passing everyhting through a proxy smh smh
+    // Pretend it pings WHO directly
     xmlHttp.open("GET", "https://cors-anywhere.herokuapp.com/apps.who.int/gho/athena/api/GHO/" + whoType + "?format=json&profile=simple" );
     //xmlHttp.open("GET", "./data/" + whoType + ".json", false );
     xmlHttp.send();
