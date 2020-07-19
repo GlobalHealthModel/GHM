@@ -293,8 +293,8 @@ availableDatasets = {
        "Reversed":true
     },
     "WHS3_42":{
-       "Title":"XXX",
-       "Unit":"Japanese encephalitis - number of reported cases",
+       "Title":"Japanese encephalitis - number of reported cases",
+       "Unit":"Cases",
        "Size":432142 ,
        "Reversed":true
     },
@@ -429,12 +429,6 @@ availableDatasets = {
        "Unit":"per 100 000 population",
        "Size":99588 ,
        "Reversed":false
-    },
-    "XXX":{
-       "Title":"XXX",
-       "Unit":"XXX",
-       "Size":0,
-       "Reversed":true
     }
  }
 
