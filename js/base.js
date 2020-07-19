@@ -288,7 +288,7 @@ availableDatasets = {
     },
     "WHS3_41":{
        "Title":"Diphtheria - number of reported cases",
-       "Unit":"XXX",
+       "Unit":"Cases",
        "Size":2326243 ,
        "Reversed":true
     },
