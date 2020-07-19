@@ -1,5 +1,5 @@
 
-var githubSubPageHack = "GHM"
+var githubSubPageHack = ""
 
 var country_convert = {
     "Afghanistan":"AFG",
@@ -268,11 +268,179 @@ availableDatasets = {
        "Size":15000000,
        "Reversed":true
     },
+    "MDG_0000000025":{
+       "Title":"Births attended by skilled health personnel (%)",
+       "Unit":"%",
+       "Size":880000,
+       "Reversed":false
+    },
     "WHOSIS_000001": {
         "Title": "Life expectancy at birth",
         "Unit": "Years",
         "Size": 4600000,
         "Reversed": false
+    },
+    "WHS3_40":{
+       "Title":"Cholera - number of reported cases",
+       "Unit":"Cases",
+       "Size":44000,
+       "Reversed":true
+    },
+    "WHS3_41":{
+       "Title":"Diphtheria - number of reported cases",
+       "Unit":"XXX",
+       "Size":2326243 ,
+       "Reversed":true
+    },
+    "WHS3_42":{
+       "Title":"XXX",
+       "Unit":"Japanese encephalitis - number of reported cases",
+       "Size":432142 ,
+       "Reversed":true
+    },
+    "WHS3_43":{
+       "Title":"Pertussis - number of reported cases",
+       "Unit":"Cases",
+       "Size":2334536 ,
+       "Reversed":true
+    },
+    "WHS3_45":{
+       "Title":"Number of new leprosy cases",
+       "Unit":"Cases",
+       "Size":900000,
+       "Reversed":true
+    },
+    "WHS3_46":{
+       "Title":"Total tetanus - number of reported cases",
+       "Unit":"Cases",
+       "Size":2310706 ,
+       "Reversed":true
+    },
+    "WHS3_47":{
+       "Title":"Meningitis - number of reported cases",
+       "Unit":"Cases",
+       "Size":645757,
+       "Reversed":true
+    },
+    "WHS3_48":{
+       "Title":"Malaria - number of reported confirmed cases",
+       "Unit":"Cases",
+       "Size":626267 ,
+       "Reversed":true
+    },
+    "WHS3_49":{
+       "Title":"Poliomyelitis - number of reported cases",
+       "Unit":"Cases",
+       "Size":2601923 ,
+       "Reversed":true
+    },
+    "WHS3_50":{
+       "Title":"Yellow fever - number of reported cases",
+       "Unit":"Cases",
+       "Size":1191907 ,
+       "Reversed":true
+    },
+    "WHS3_51":{
+       "Title":"H5N1 influenza - number of reported cases",
+       "Unit":"Cases",
+       "Size":11109,
+       "Reversed":true
+    },
+    "WHS3_52":{
+       "Title":"Plague - number of reported cases",
+       "Unit":"Cases",
+       "Size":14082,
+       "Reversed":true
+    },
+    "WHS3_53":{
+       "Title":"Mumps - number of reported cases",
+       "Unit":"Cases",
+       "Size":866175 ,
+       "Reversed":true
+    },
+    "WHS3_54":{
+       "Title":"Number of reported cases of tuberculosis (DOTS)",
+       "Unit":"Cases",
+       "Size":69786  ,
+       "Reversed":true
+    },
+    "WHS3_55":{
+       "Title":"Congenital Rubella Syndrome - number of reported cases",
+       "Unit":"Cases",
+       "Size":877430 ,
+       "Reversed":true
+    },
+    "WHS3_56":{
+       "Title":"Neonatal tetanus - number of reported cases",
+       "Unit":"Cases",
+       "Size":2344145 ,
+       "Reversed":true
+    },
+    "WHS3_57":{
+       "Title":"Total rubella - number of reported cases",
+       "Unit":"Cases",
+       "Size":1132461 ,
+       "Reversed":true
+    },
+    "WHS3_62":{
+       "Title":"XXX",
+       "Unit":"XXX",
+       "Size":0,
+       "Reversed":true
+    },
+    "MORT_58":{
+       "Title":"Measles - number of reported cases",
+       "Unit":"Cases",
+       "Size":3171180 ,
+       "Reversed":true
+    },
+    "WHOSIS_000008":{
+       "Title":"Children aged <5 years underweight (%)",
+       "Unit":"%",
+       "Size":885918 ,
+       "Reversed":true
+    },
+    "WHOSIS_000009":{
+       "Title":"Children aged <5 years overweight (%)",
+       "Unit":"%",
+       "Size":782394 ,
+       "Reversed":true
+    },
+    "WHS9_86":{
+       "Title":"Population (in thousands) total",
+       "Unit":"thousands",
+       "Size":73111 ,
+       "Reversed":true
+    },
+    "WHS9_88":{
+       "Title":"Population median age (years)",
+       "Unit":"years",
+       "Size":140104 ,
+       "Reversed":false
+    },
+    "WHS9_89":{
+       "Title":"Population proportion under 15 (%)",
+       "Unit":"%",
+       "Size":69298 ,
+       "Reversed":true
+    },
+    "WHS4_115":{
+       "Title":"Births by caesarean section (%)",
+       "Unit":"%",
+       "Size":124933 ,
+       "Reversed":true
+    },
+    "WHS2_138":{
+       "Title":"Deaths due to HIV/AIDS (per 100 000 population)",
+       "Unit":"per 100 000 population",
+       "Size":99588 ,
+       "Reversed":false
+    },
+    "XXX":{
+       "Title":"XXX",
+       "Unit":"XXX",
+       "Size":0,
+       "Reversed":true
     }
  }
 
